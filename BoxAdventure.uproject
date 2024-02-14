@@ -1,12 +1,21 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.25",
+	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
+		},
+		{
+			"Name": "EOSShared",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSIntegrationKit",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/dba0aa05bdd144e69405653a387ad63e"
 		}
 	]
 }
